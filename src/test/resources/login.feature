@@ -4,7 +4,9 @@ Feature: Title of your feature
 
 @login
 Scenario: Do a login action
-	Given access to the url "https://www.google.es"
+	Given access to gmail
+	When I do login with user: "username" and password "password"
+	Then the mailbox main page is shown
 
 #@tag1
 #Scenario: Title of your scenario

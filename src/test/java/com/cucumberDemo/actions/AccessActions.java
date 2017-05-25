@@ -1,15 +1,17 @@
 package com.cucumberDemo.actions;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class AccessActions extends AbstractActions{
+import com.cucumberDemo.pageobjects.GmailPageObject;
 
-	public static void getPage(String url){
+public class AccessActions{
+
+	public static void accessToGmail(){
 		
-		driver.navigate().to(url);
-		WebDriverWait myDynamicElement = new WebDriverWait(driver, 10);
-	myDynamicElement.until(ExpectedConditions.presenceOfElementLocated(By.id("")));
+		GmailPageObject.getPage();
+
+	}
+
+	public static void doLoginInGmail(String user, String password) {
+		GmailPageObject.doLogin(user, password);
 	}
 }

@@ -8,9 +8,9 @@ import cucumber.api.java.en.Given;
 
 public class GivenSteps{
 	
-	@Given(value = "^access to the url \"([^\"]*)\"$")
-	public void access_to_the_url(String url) throws Throwable {
-		AccessActions.getPage(url);
+	@Given(value = "^access to gmail$")
+	public void access_to_the_url() throws Throwable {
+		AccessActions.accessToGmail();
 	}
 
 }
