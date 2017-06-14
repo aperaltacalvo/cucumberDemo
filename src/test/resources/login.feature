@@ -4,9 +4,9 @@ Feature: Title of your feature
 
 @login
 Scenario: Do a login action
-	Given access to gmail
-	When I do login with user: "username" and password "password"
-	Then the mailbox main page is shown
+	Given a valid user
+	When when he clicks on submit button with user "pruebasmasterclass" and password "masterclassbdd"
+	Then then he will see the mail view
 
 #@tag1
 #Scenario: Title of your scenario

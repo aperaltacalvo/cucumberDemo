@@ -8,7 +8,7 @@ import cucumber.api.java.en.Then;
 
 public class ThenSteps {
 
-	@Then(value = "^the mailbox main page is shown$")
+	@Then(value = "^then he will see the mail view$")
 	public void access_to_the_url() throws Throwable {
 		AssertionActions.checkIfMailBoxIsVisible();
 	}

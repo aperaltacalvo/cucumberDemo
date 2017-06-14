@@ -8,7 +8,7 @@ import cucumber.api.java.en.Given;
 
 public class GivenSteps{
 	
-	@Given(value = "^access to gmail$")
+	@Given(value = "^a valid user$")
 	public void access_to_the_url() throws Throwable {
 		AccessActions.accessToGmail();
 	}
