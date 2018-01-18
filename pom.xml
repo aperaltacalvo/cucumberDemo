@@ -66,7 +66,9 @@
                 <version>2.16</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
+                    <includes>**/Runner**</includes>
                 </configuration>
+
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
