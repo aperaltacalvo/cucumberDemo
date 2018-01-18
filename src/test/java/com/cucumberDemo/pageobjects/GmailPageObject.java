@@ -14,7 +14,7 @@ public class GmailPageObject extends AbstractPageObject{
 	private static final By sendLoginButton = By.id("passwordNext");
 	private static final By mailBoxHeader = By.cssSelector("div[role='banner']");
 	private static final By mailBoxInput = By.className("aDP");
-	private static final By mailBoxWriteNewMailButton = By.xpath("//*[@id=':ix']/div/div");
+	private static final By mailBoxWriteNewMailButton = By.className("T-I J-J5-Ji T-I-KE L3");
 
 	private static WebDriverWait myDynamicElement = new WebDriverWait(driver, 10);
 

@@ -10,6 +10,6 @@ public class AssertionActions extends AbstractPageObject{
 		public static void checkIfMailBoxIsVisible(){
 			GmailPageObject.checkMailboxHeaderIsVisible();
 			GmailPageObject.checkMailboxInputIsVisible();
-			GmailPageObject.checkMailboxWriteNewMailButtonIsVisible();
+			//GmailPageObject.checkMailboxWriteNewMailButtonIsVisible();
 		}
 }

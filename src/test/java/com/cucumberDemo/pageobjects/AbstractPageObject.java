@@ -15,6 +15,7 @@ public class AbstractPageObject {
 	
 
 	private static ChromeDriver getChromedriver() {
+		System.setProperty("webdriver.chrome.driver","chromedriver");
 		chromedriver = new ChromeDriver();
 		return chromedriver;
 	}
